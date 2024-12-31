@@ -65,7 +65,7 @@ const Page = () => {
         {/* tabs */}
         <div className="w-full border-r border-r-line-color">
           {/* folder title */}
-          <details className="flex items-center gap-2 border-b border-b-line-color" open>
+          <details className=" items-center gap-2 border-b border-b-line-color" open>
             <summary className="px-4 py-3 border-b border-b-line-color">personal-info</summary>
             <div className="px-4 py-5">
               {/* bio */}
@@ -116,7 +116,7 @@ const Page = () => {
             </div>
           </details>
 
-          <details className="flex items-center  gap-2 border-t border-t-line-color border-b  border-b-line-color" open>
+          <details className=" items-center  gap-2 border-t border-t-line-color border-b  border-b-line-color" open>
             <summary className="px-4 border-b py-2 border-b-line-color">
               contact
             </summary>

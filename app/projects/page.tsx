@@ -38,7 +38,7 @@ const Page = () => {
     <div className="flex h-full md:flex-row flex-col">
       <div className="min-w-[288px] flex-[0_0_16%] h-full">
         <details
-          className="flex items-center gap-2 border-b border-b-line-color border-r h-full border-r-line-color"
+          className="items-center gap-2 border-b border-b-line-color border-r h-full border-r-line-color"
           open
         >
           <summary className="px-4 py-3 border-b border-b-line-color">
